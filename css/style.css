@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+  text-decoration: none;
+}
+body {
+  background: #2b2b2b;
+}
+.container {
+  max-width: 85%;
+  margin-inline: auto;
+  width: 80%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 43px;
+}
+.nav {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  font-size: 16px;
+  line-height: 22.4px;
+  align-items: center;
+  color: #fff;
+}
+.nav button {
+  font-size: 16px;
+  line-height: 22.4px;
+  width: 152px;
+  height: 60px;
+  border-radius: 20px;
+  background: #a259ff;
+  border: none;
+  color: #fff;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+#collect {
+  padding-block: 100px;
+}
+.collect {
+  display: flex;
+  justify-content: space-between;
+}
+.collect-text {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.collect-text h1 {
+  width: 510px;
+  height: 222px;
+  font-size: 67px;
+  line-height: 73.7px;
+  color: #fff;
+}
+.collect-text p {
+  width: 510px;
+  height: 105px;
+  font-size: 22px;
+  line-height: 35.2px;
+  color: #fff;
+}
+.collect-text button {
+  font-size: 16px;
+  line-height: 22.4px;
+  align-items: center;
+  color: #fff;
+  width: 224px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  background: #a259ff;
+  border: none;
+}
+.hero {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.hero p {
+  font-family: Space Mono;
+  font-size: 28px;
+  line-height: 39.2px;
+  width: 150px;
+  color: #fff;
+}
+.hero span {
+  font-size: 23.99px;
+  line-height: 38.38px;
+  color: #fff;
+}
+.trending {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.trending-text {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.trending-text h1 {
+  font-size: 38px;
+  line-height: 45.6px;
+  color: #fff;
+}
+.trending-text p {
+  font-size: 22px;
+  line-height: 35.2px;
+  color: #fff;
+}
+.animals-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 50px;
+}
+.market{
+  display: flex;
+  justify-content: space-between;
+}
+.market-text h1{
+  font-size: 38px;
+  line-height: 45.6px;
+  color: #fff;
+}
+.market-text p{
+  font-size: 22px;
+  line-height: 35.2px;
+  color: #fff;
+}
+.btn button{
+  font-size: 16px;
+  line-height: 22.4px;
+  align-items: center;
+  color: #fff;
+  width: 224px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  background: none;
+  border-color: #a259ff;
+}
